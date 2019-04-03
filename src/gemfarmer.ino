@@ -33,7 +33,7 @@ void loop()
   // Read Serial1 into the string
   while (Serial1.available())
   {
-    tempString[spot++] = Serial.read();
+    tempString[spot++] = Serial1.read();
     if (spot > sizeFile)
       break;
     delay(10); // Wait for Serial1
