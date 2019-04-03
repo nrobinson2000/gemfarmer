@@ -46,4 +46,7 @@ void loop()
     Serial.println("tempString Contents:");
     Serial.println(tempString);
   }
+
+  // Delay for sanity
+  delay(1000);
 }
